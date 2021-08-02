@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PleoNative'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of this package.'
   s.homepage         = 'https://github.com/Wiingaard/PleoNativeCocoapod'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
