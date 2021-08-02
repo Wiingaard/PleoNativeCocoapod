@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Device">
+   </FileRef>
+   <FileRef
+      location = "group:Utility">
+   </FileRef>
+   <FileRef
+      location = "group:Keychain">
+   </FileRef>
+   <FileRef
+      location = "group:Config">
+   </FileRef>
+   <FileRef
+      location = "group:Auth">
+   </FileRef>
+   <FileRef
+      location = "group:Database">
+   </FileRef>
+   <FileRef
+      location = "group:Networking">
+   </FileRef>
+   <FileRef
+      location = "group:ExpenseFeature">
+   </FileRef>
+   <FileRef
+      location = "group:LoginFeature">
+   </FileRef>
+   <FileRef
+      location = "group:Pleo/Pleo.xcodeproj">
+   </FileRef>
+</Workspace>
