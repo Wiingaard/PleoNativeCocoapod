@@ -13,6 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		224C10F4453D192FC91074F7 /* libPods-PleoMobileRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53BB68817ADB534446A832 /* libPods-PleoMobileRN.a */; };
 		5BE94B8526BBD011004B0BCE /* output in Resources */ = {isa = PBXBuildFile; fileRef = 5BE94B8426BBD011004B0BCE /* output */; };
+		5BE94B8926BBDB01004B0BCE /* SomeSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE94B8826BBDB01004B0BCE /* SomeSource.swift */; };
 		63012EA91BC7DBF79B8B7AFD /* libPods-PleoMobileRN-PleoMobileRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD64212F8E54DF272F0B9C2C /* libPods-PleoMobileRN-PleoMobileRNTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		4C53BB68817ADB534446A832 /* libPods-PleoMobileRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PleoMobileRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE94B8126BBCE87004B0BCE /* PleoMobileRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PleoMobileRN-Bridging-Header.h"; sourceTree = "<group>"; };
 		5BE94B8426BBD011004B0BCE /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; name = output; path = PleoMobileRN/output; sourceTree = "<group>"; };
+		5BE94B8826BBDB01004B0BCE /* SomeSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SomeSource.swift; path = PleoMobileRN/SomeSource.swift; sourceTree = "<group>"; };
 		5CC1ABB7671B889F5C00A2F0 /* Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig"; path = "Target Support Files/Pods-PleoMobileRN-PleoMobileRNTests/Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PleoMobileRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD64212F8E54DF272F0B9C2C /* libPods-PleoMobileRN-PleoMobileRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PleoMobileRN-PleoMobileRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				5BE94B8826BBDB01004B0BCE /* SomeSource.swift */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				5BE94B8126BBCE87004B0BCE /* PleoMobileRN-Bridging-Header.h */,
 			);
@@ -417,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				5BE94B8926BBDB01004B0BCE /* SomeSource.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 259D90B382E2AC73C4255D25 /* Pods-PleoMobileRN-PleoMobileRNTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -463,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CC1ABB7671B889F5C00A2F0 /* Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = PleoMobileRNTests/Info.plist;
