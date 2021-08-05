@@ -7,6 +7,6 @@ import App from './App';
 import {name as appName} from './app.json';
 import DummyView from './DummyView'
 
-AppRegistry.registerComponent(appName, () => DummyView);
+AppRegistry.registerComponent(appName, () => App);
 
 AppRegistry.registerComponent("DummyView", () => DummyView);
