@@ -12,6 +12,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		224C10F4453D192FC91074F7 /* libPods-PleoMobileRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53BB68817ADB534446A832 /* libPods-PleoMobileRN.a */; };
+		5BE94B8326BBCE87004B0BCE /* PleoRN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE94B8226BBCE87004B0BCE /* PleoRN.swift */; };
+		5BE94B8526BBD011004B0BCE /* output in Resources */ = {isa = PBXBuildFile; fileRef = 5BE94B8426BBD011004B0BCE /* output */; };
 		63012EA91BC7DBF79B8B7AFD /* libPods-PleoMobileRN-PleoMobileRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD64212F8E54DF272F0B9C2C /* libPods-PleoMobileRN-PleoMobileRNTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -39,6 +41,9 @@
 		259D90B382E2AC73C4255D25 /* Pods-PleoMobileRN-PleoMobileRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PleoMobileRN-PleoMobileRNTests.debug.xcconfig"; path = "Target Support Files/Pods-PleoMobileRN-PleoMobileRNTests/Pods-PleoMobileRN-PleoMobileRNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3970B71EF1368E55C855AC3B /* Pods-PleoMobileRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PleoMobileRN.debug.xcconfig"; path = "Target Support Files/Pods-PleoMobileRN/Pods-PleoMobileRN.debug.xcconfig"; sourceTree = "<group>"; };
 		4C53BB68817ADB534446A832 /* libPods-PleoMobileRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PleoMobileRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE94B8126BBCE87004B0BCE /* PleoMobileRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PleoMobileRN-Bridging-Header.h"; sourceTree = "<group>"; };
+		5BE94B8226BBCE87004B0BCE /* PleoRN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PleoRN.swift; sourceTree = "<group>"; };
+		5BE94B8426BBD011004B0BCE /* output */ = {isa = PBXFileReference; lastKnownFileType = folder; name = output; path = PleoMobileRN/output; sourceTree = "<group>"; };
 		5CC1ABB7671B889F5C00A2F0 /* Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig"; path = "Target Support Files/Pods-PleoMobileRN-PleoMobileRNTests/Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PleoMobileRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD64212F8E54DF272F0B9C2C /* libPods-PleoMobileRN-PleoMobileRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PleoMobileRN-PleoMobileRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,12 +91,15 @@
 		13B07FAE1A68108700A75B9A /* PleoMobileRN */ = {
 			isa = PBXGroup;
 			children = (
+				5BE94B8426BBD011004B0BCE /* output */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				5BE94B8226BBCE87004B0BCE /* PleoRN.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				5BE94B8126BBCE87004B0BCE /* PleoMobileRN-Bridging-Header.h */,
 			);
 			name = PleoMobileRN;
 			sourceTree = "<group>";
@@ -145,7 +153,6 @@
 				259D90B382E2AC73C4255D25 /* Pods-PleoMobileRN-PleoMobileRNTests.debug.xcconfig */,
 				5CC1ABB7671B889F5C00A2F0 /* Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +215,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -245,6 +252,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5BE94B8526BBD011004B0BCE /* output in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				5BE94B8326BBCE87004B0BCE /* PleoRN.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 259D90B382E2AC73C4255D25 /* Pods-PleoMobileRN-PleoMobileRNTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -458,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CC1ABB7671B889F5C00A2F0 /* Pods-PleoMobileRN-PleoMobileRNTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = PleoMobileRNTests/Info.plist;
@@ -498,6 +509,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = PleoMobileRN;
+				SWIFT_OBJC_BRIDGING_HEADER = "PleoMobileRN-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -523,6 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = PleoMobileRN;
+				SWIFT_OBJC_BRIDGING_HEADER = "PleoMobileRN-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
