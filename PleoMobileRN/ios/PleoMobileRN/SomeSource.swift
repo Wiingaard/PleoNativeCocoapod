@@ -7,4 +7,8 @@
 
 import Foundation
 
-func mojn() { print("mojn") }
+public class PleoRN {
+  public static func mojn() {
+    print("mojn")
+  }
+}
