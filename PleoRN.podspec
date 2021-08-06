@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   podspecs = [
     'node_modules/react-native/ReactCommon/yoga/Yoga.podspec',
     'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
-    'node_modules/react-native/third-party-podspecs/Folly.podspec',
+    'node_modules/react-native/third-party-podspecs/RCT-Folly.podspec',
     'node_modules/react-native/third-party-podspecs/glog.podspec'
   ]
   podspecs.each do |podspec_path|
