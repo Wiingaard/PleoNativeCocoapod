@@ -34,9 +34,13 @@ Pod::Spec.new do |s|
   s.platform       = :ios, '13.0'
 
   # React is split into a set of subspecs, these are the essentials
-  s.dependency 'React/Core', react_native_version
-  s.dependency "React-Core/DevSupport", react_native_version
-  s.dependency "React-Core/RCTWebSocket", react_native_version
+  s.dependency "FBLazyVector", react_native_version
+  s.dependency "FBReactNativeSpec", react_native_version
+  s.dependency "RCTRequired", react_native_version
+  s.dependency "RCTTypeSafety", react_native_version
+  s.dependency "React", react_native_version
+  s.dependency "React-Core", react_native_version
+  s.dependency "React-CoreModules", react_native_version
   s.dependency "React-RCTActionSheet", react_native_version
   s.dependency "React-RCTAnimation", react_native_version
   s.dependency "React-RCTBlob", react_native_version
@@ -46,7 +50,17 @@ Pod::Spec.new do |s|
   s.dependency "React-RCTSettings", react_native_version
   s.dependency "React-RCTText", react_native_version
   s.dependency "React-RCTVibration", react_native_version
+  s.dependency "React-Core/RCTWebSocket", react_native_version
 
+  s.dependency "React-cxxreact", react_native_version
+  s.dependency "React-jsi", react_native_version
+  s.dependency "React-jsiexecutor", react_native_version
+  s.dependency "React-jsinspector", react_native_version
+  s.dependency "React-callinvoker", react_native_version
+  s.dependency "React-runtimeexecutor", react_native_version
+  s.dependency "React-perflogger", react_native_version
+  s.dependency "ReactCommon/turbomodule/core", react_native_version
+  
   # React's dependencies
   podspecs = [
     'node_modules/react-native/ReactCommon/yoga/Yoga.podspec',
