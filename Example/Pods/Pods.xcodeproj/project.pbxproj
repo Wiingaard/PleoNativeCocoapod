@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C80582B59CBD6AD909738C74A9721F5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F563FC0C31E1B9ABA2B3D4B1E635D /* ReplaceMe.swift */; };
+		364A57DAE99D4C0FD2A23F0BEDAD3343 /* Pods-PleoRN_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA3DB77332A00CC03DB5FF4A074E912 /* Pods-PleoRN_Example-dummy.m */; };
+		498811B7F2519816CC857BC01495827C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C8461C90E09B1E200BD5079EFA5761D /* PleoRN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D971505E8B8D499D24E5B89EEC78F89 /* PleoRN-dummy.m */; };
+		5AE44D20D395B59DF103052E8D0BB67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F254D468C9C0D0F0DFBBAC42C74C0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8C75A17DE0E31765F68DD0554A02F776 /* Pods-PleoRN_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB70BA798B4C907DF226F1E08D4FA2D /* Pods-PleoRN_Tests-dummy.m */; };
+		C66A334D1A62887578B109D3579C7AB6 /* Pods-PleoRN_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 411FE5FB2DB66E3690F3E7D2D27DD29D /* Pods-PleoRN_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE3069CE19AD6A51644A5DA88EB69002 /* Pods-PleoRN_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DB3F38F2C39B9B7EE0CBF4E62942E3 /* Pods-PleoRN_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D428CE7590B0D2A6BC0BADC53174D055 /* PleoRN-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20657E857BA032738C408AA5F7E3EB4C /* PleoRN-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2757992CCCDA1E2C702391B217D1030A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1694DA6C9D6E2FA4442C2E35DB79655;
+			remoteInfo = PleoRN;
+		};
+		AE5D1789748BA132255A31AC478FFD61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E01F8019E299B83964CBCC91E7D71D;
+			remoteInfo = "Pods-PleoRN_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB70BA798B4C907DF226F1E08D4FA2D /* Pods-PleoRN_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PleoRN_Tests-dummy.m"; sourceTree = "<group>"; };
+		20657E857BA032738C408AA5F7E3EB4C /* PleoRN-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PleoRN-umbrella.h"; sourceTree = "<group>"; };
+		2654C64322A54FA060D1230B84CFCE57 /* Pods-PleoRN_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PleoRN_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		270F15636AD75741EFB37BB0B7E9BE1F /* PleoRN.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PleoRN.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		299E2C6E4BD067FF4533ABA31C7D69AB /* Pods-PleoRN_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PleoRN_Example.modulemap"; sourceTree = "<group>"; };
+		2BB42A0DE42CFF1EE15F227272D66574 /* Pods-PleoRN_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PleoRN_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3ACDA8ACC0F36591227C7E63C577952F /* Pods-PleoRN_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PleoRN_Tests.modulemap"; sourceTree = "<group>"; };
+		3D971505E8B8D499D24E5B89EEC78F89 /* PleoRN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PleoRN-dummy.m"; sourceTree = "<group>"; };
+		3E446AE3D01DAFD7BAA59C697E4673DF /* Pods-PleoRN_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PleoRN_Example-frameworks.sh"; sourceTree = "<group>"; };
+		411FE5FB2DB66E3690F3E7D2D27DD29D /* Pods-PleoRN_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PleoRN_Example-umbrella.h"; sourceTree = "<group>"; };
+		48A0EBD086D4B6B969E3ADB90B8A1DD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4B1252C415BADB40D440A99A4BB98763 /* PleoRN-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PleoRN-prefix.pch"; sourceTree = "<group>"; };
+		5BD3767E1EC3B295FB4B3C7BFB6D9D31 /* Pods-PleoRN_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PleoRN_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EC10D727EDF86D97763F1BBD9E2C3CD /* Pods-PleoRN_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PleoRN_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F2F75ED7A459BD8EECBFDD0570BB73B /* PleoRN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PleoRN.modulemap; sourceTree = "<group>"; };
+		7147749DB9DC02CFD896F79559ABB691 /* Pods-PleoRN_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PleoRN_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77212CAFDF924FD6ED396E93D08126A6 /* PleoRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PleoRN.debug.xcconfig; sourceTree = "<group>"; };
+		77AB6BBDBBB9FD0113745945C14F1EC9 /* Pods-PleoRN_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PleoRN_Tests-Info.plist"; sourceTree = "<group>"; };
+		86E4503E3AEA19DFDBA74B208FB69609 /* Pods_PleoRN_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PleoRN_Example.framework; path = "Pods-PleoRN_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A33FAF73C271686B1B1F3E39BA42B95 /* Pods-PleoRN_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PleoRN_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9495D243D3D8BB2C1CD8CA1781B849DE /* PleoRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PleoRN.framework; path = PleoRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0FB1B401E28473CA2E9D60AC661477 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A06A7810992876FB4D2CA1A965579793 /* Pods_PleoRN_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PleoRN_Tests.framework; path = "Pods-PleoRN_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56F563FC0C31E1B9ABA2B3D4B1E635D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Pod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C0DB3F38F2C39B9B7EE0CBF4E62942E3 /* Pods-PleoRN_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PleoRN_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CCF8CE07AE35F153447F56E70B286EEB /* Pods-PleoRN_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PleoRN_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CDA3DB77332A00CC03DB5FF4A074E912 /* Pods-PleoRN_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PleoRN_Example-dummy.m"; sourceTree = "<group>"; };
+		D9498419C280C99F7E9514FEE40EF141 /* Pods-PleoRN_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PleoRN_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCDDCEBC26AFDA6AEEBE9EE0E59A3C64 /* Pods-PleoRN_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PleoRN_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEAAA3F049B1436BA978BD83A0E4DDA0 /* PleoRN-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PleoRN-Info.plist"; sourceTree = "<group>"; };
+		F6D088FFD77537BC3FB34905010F23EA /* PleoRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PleoRN.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DC7EE680882E440ACBFF2277EE34CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE44D20D395B59DF103052E8D0BB67B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC07C271774DE3DC7E213EEB53BEC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F254D468C9C0D0F0DFBBAC42C74C0A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E59871FFC9BBD01C8D3CF96CD85DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498811B7F2519816CC857BC01495827C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059A284918FD61B9ABB1FED83EDE3861 /* Pods-PleoRN_Example */ = {
+			isa = PBXGroup;
+			children = (
+				299E2C6E4BD067FF4533ABA31C7D69AB /* Pods-PleoRN_Example.modulemap */,
+				D9498419C280C99F7E9514FEE40EF141 /* Pods-PleoRN_Example-acknowledgements.markdown */,
+				2BB42A0DE42CFF1EE15F227272D66574 /* Pods-PleoRN_Example-acknowledgements.plist */,
+				CDA3DB77332A00CC03DB5FF4A074E912 /* Pods-PleoRN_Example-dummy.m */,
+				3E446AE3D01DAFD7BAA59C697E4673DF /* Pods-PleoRN_Example-frameworks.sh */,
+				7147749DB9DC02CFD896F79559ABB691 /* Pods-PleoRN_Example-Info.plist */,
+				411FE5FB2DB66E3690F3E7D2D27DD29D /* Pods-PleoRN_Example-umbrella.h */,
+				5EC10D727EDF86D97763F1BBD9E2C3CD /* Pods-PleoRN_Example.debug.xcconfig */,
+				CCF8CE07AE35F153447F56E70B286EEB /* Pods-PleoRN_Example.release.xcconfig */,
+			);
+			name = "Pods-PleoRN_Example";
+			path = "Target Support Files/Pods-PleoRN_Example";
+			sourceTree = "<group>";
+		};
+		2E2E51B9DD6A26E02F84AE6B03E2BC5E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9C0FB1B401E28473CA2E9D60AC661477 /* LICENSE */,
+				270F15636AD75741EFB37BB0B7E9BE1F /* PleoRN.podspec */,
+				48A0EBD086D4B6B969E3ADB90B8A1DD6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		43ECC7822630374F381C8989554462A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				059A284918FD61B9ABB1FED83EDE3861 /* Pods-PleoRN_Example */,
+				FE104E4D36BE482312A764922082BC33 /* Pods-PleoRN_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A0D7B592CD0BFD08EE80E606A08114A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D606690F508E470431CEDFE706323476 /* PleoRN */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DD4FA884E3AE9D771CFC7A7EA1DFEA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F75ED7A459BD8EECBFDD0570BB73B /* PleoRN.modulemap */,
+				3D971505E8B8D499D24E5B89EEC78F89 /* PleoRN-dummy.m */,
+				EEAAA3F049B1436BA978BD83A0E4DDA0 /* PleoRN-Info.plist */,
+				4B1252C415BADB40D440A99A4BB98763 /* PleoRN-prefix.pch */,
+				20657E857BA032738C408AA5F7E3EB4C /* PleoRN-umbrella.h */,
+				77212CAFDF924FD6ED396E93D08126A6 /* PleoRN.debug.xcconfig */,
+				F6D088FFD77537BC3FB34905010F23EA /* PleoRN.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PleoRN";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5A0D7B592CD0BFD08EE80E606A08114A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F385DD34226B88F418C5E7F3308AD0DD /* Products */,
+				43ECC7822630374F381C8989554462A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D606690F508E470431CEDFE706323476 /* PleoRN */ = {
+			isa = PBXGroup;
+			children = (
+				B56F563FC0C31E1B9ABA2B3D4B1E635D /* ReplaceMe.swift */,
+				2E2E51B9DD6A26E02F84AE6B03E2BC5E /* Pod */,
+				7DD4FA884E3AE9D771CFC7A7EA1DFEA4 /* Support Files */,
+			);
+			name = PleoRN;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F385DD34226B88F418C5E7F3308AD0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9495D243D3D8BB2C1CD8CA1781B849DE /* PleoRN.framework */,
+				86E4503E3AEA19DFDBA74B208FB69609 /* Pods_PleoRN_Example.framework */,
+				A06A7810992876FB4D2CA1A965579793 /* Pods_PleoRN_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE104E4D36BE482312A764922082BC33 /* Pods-PleoRN_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3ACDA8ACC0F36591227C7E63C577952F /* Pods-PleoRN_Tests.modulemap */,
+				DCDDCEBC26AFDA6AEEBE9EE0E59A3C64 /* Pods-PleoRN_Tests-acknowledgements.markdown */,
+				2654C64322A54FA060D1230B84CFCE57 /* Pods-PleoRN_Tests-acknowledgements.plist */,
+				1DB70BA798B4C907DF226F1E08D4FA2D /* Pods-PleoRN_Tests-dummy.m */,
+				77AB6BBDBBB9FD0113745945C14F1EC9 /* Pods-PleoRN_Tests-Info.plist */,
+				C0DB3F38F2C39B9B7EE0CBF4E62942E3 /* Pods-PleoRN_Tests-umbrella.h */,
+				5BD3767E1EC3B295FB4B3C7BFB6D9D31 /* Pods-PleoRN_Tests.debug.xcconfig */,
+				8A33FAF73C271686B1B1F3E39BA42B95 /* Pods-PleoRN_Tests.release.xcconfig */,
+			);
+			name = "Pods-PleoRN_Tests";
+			path = "Target Support Files/Pods-PleoRN_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FCB12C0F1C7264A267A1ECAE5CA1554 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3069CE19AD6A51644A5DA88EB69002 /* Pods-PleoRN_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60C22124526A5D413AFF8634DBC8243 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D428CE7590B0D2A6BC0BADC53174D055 /* PleoRN-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FA93B01027731C8571848ACF0F6868 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66A334D1A62887578B109D3579C7AB6 /* Pods-PleoRN_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		73AC5995BF1F4B5370503AFE13F978BA /* Pods-PleoRN_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB08A2BC75BE60BFE9749CEE53A878C1 /* Build configuration list for PBXNativeTarget "Pods-PleoRN_Tests" */;
+			buildPhases = (
+				9FCB12C0F1C7264A267A1ECAE5CA1554 /* Headers */,
+				54BEFE72E67B9A157BD7B5C5B29C1CA2 /* Sources */,
+				89DC7EE680882E440ACBFF2277EE34CE /* Frameworks */,
+				F17C885814677A8CC1DF3773C7962D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44B9F1FBBD963682B57A9EC551D4C42B /* PBXTargetDependency */,
+			);
+			name = "Pods-PleoRN_Tests";
+			productName = "Pods-PleoRN_Tests";
+			productReference = A06A7810992876FB4D2CA1A965579793 /* Pods_PleoRN_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1694DA6C9D6E2FA4442C2E35DB79655 /* PleoRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA128416FCFFE2A53644AA1CBF5AA6CB /* Build configuration list for PBXNativeTarget "PleoRN" */;
+			buildPhases = (
+				A60C22124526A5D413AFF8634DBC8243 /* Headers */,
+				2BA3985093D5FB791144199A50150D21 /* Sources */,
+				E3E59871FFC9BBD01C8D3CF96CD85DD2 /* Frameworks */,
+				10686E3CE3D23A1551F97445494F5E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PleoRN;
+			productName = PleoRN;
+			productReference = 9495D243D3D8BB2C1CD8CA1781B849DE /* PleoRN.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6E01F8019E299B83964CBCC91E7D71D /* Pods-PleoRN_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7111A0DD1B5C0B1C4E2ED5F165F28361 /* Build configuration list for PBXNativeTarget "Pods-PleoRN_Example" */;
+			buildPhases = (
+				F2FA93B01027731C8571848ACF0F6868 /* Headers */,
+				7A4993C29EA9993DCCA16E877D2D8D7C /* Sources */,
+				9AC07C271774DE3DC7E213EEB53BEC91 /* Frameworks */,
+				19F9D17313494CEEBA9C34B4D5806730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E7044C2F6D8A515B96990BB1E07F6A /* PBXTargetDependency */,
+			);
+			name = "Pods-PleoRN_Example";
+			productName = "Pods-PleoRN_Example";
+			productReference = 86E4503E3AEA19DFDBA74B208FB69609 /* Pods_PleoRN_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F385DD34226B88F418C5E7F3308AD0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1694DA6C9D6E2FA4442C2E35DB79655 /* PleoRN */,
+				D6E01F8019E299B83964CBCC91E7D71D /* Pods-PleoRN_Example */,
+				73AC5995BF1F4B5370503AFE13F978BA /* Pods-PleoRN_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10686E3CE3D23A1551F97445494F5E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F9D17313494CEEBA9C34B4D5806730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17C885814677A8CC1DF3773C7962D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA3985093D5FB791144199A50150D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8461C90E09B1E200BD5079EFA5761D /* PleoRN-dummy.m in Sources */,
+				1C80582B59CBD6AD909738C74A9721F5 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BEFE72E67B9A157BD7B5C5B29C1CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C75A17DE0E31765F68DD0554A02F776 /* Pods-PleoRN_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4993C29EA9993DCCA16E877D2D8D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364A57DAE99D4C0FD2A23F0BEDAD3343 /* Pods-PleoRN_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44B9F1FBBD963682B57A9EC551D4C42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PleoRN_Example";
+			target = D6E01F8019E299B83964CBCC91E7D71D /* Pods-PleoRN_Example */;
+			targetProxy = AE5D1789748BA132255A31AC478FFD61 /* PBXContainerItemProxy */;
+		};
+		B6E7044C2F6D8A515B96990BB1E07F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PleoRN;
+			target = B1694DA6C9D6E2FA4442C2E35DB79655 /* PleoRN */;
+			targetProxy = 2757992CCCDA1E2C702391B217D1030A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B86695D046DD7553E32E90DB58C1453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC10D727EDF86D97763F1BBD9E2C3CD /* Pods-PleoRN_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PleoRN_Example/Pods-PleoRN_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PleoRN_Example/Pods-PleoRN_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F09AC3DCB840BDB7ACD16C36368C16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF8CE07AE35F153447F56E70B286EEB /* Pods-PleoRN_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PleoRN_Example/Pods-PleoRN_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PleoRN_Example/Pods-PleoRN_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D3F73800747F32F6D92CD78A3972EEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD3767E1EC3B295FB4B3C7BFB6D9D31 /* Pods-PleoRN_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PleoRN_Tests/Pods-PleoRN_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PleoRN_Tests/Pods-PleoRN_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E246B8BCC47F6515213E8C2447D5A1D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D088FFD77537BC3FB34905010F23EA /* PleoRN.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PleoRN/PleoRN-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PleoRN/PleoRN-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PleoRN/PleoRN.modulemap";
+				PRODUCT_MODULE_NAME = PleoRN;
+				PRODUCT_NAME = PleoRN;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E85C519DC1FCF8DE32C14DF7BD58A5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77212CAFDF924FD6ED396E93D08126A6 /* PleoRN.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PleoRN/PleoRN-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PleoRN/PleoRN-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PleoRN/PleoRN.modulemap";
+				PRODUCT_MODULE_NAME = PleoRN;
+				PRODUCT_NAME = PleoRN;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAA855D2395200CE95AB63BA533D6F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A33FAF73C271686B1B1F3E39BA42B95 /* Pods-PleoRN_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PleoRN_Tests/Pods-PleoRN_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PleoRN_Tests/Pods-PleoRN_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7111A0DD1B5C0B1C4E2ED5F165F28361 /* Build configuration list for PBXNativeTarget "Pods-PleoRN_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B86695D046DD7553E32E90DB58C1453 /* Debug */,
+				9F09AC3DCB840BDB7ACD16C36368C16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA128416FCFFE2A53644AA1CBF5AA6CB /* Build configuration list for PBXNativeTarget "PleoRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85C519DC1FCF8DE32C14DF7BD58A5E3 /* Debug */,
+				E246B8BCC47F6515213E8C2447D5A1D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB08A2BC75BE60BFE9749CEE53A878C1 /* Build configuration list for PBXNativeTarget "Pods-PleoRN_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F73800747F32F6D92CD78A3972EEA2 /* Debug */,
+				FAA855D2395200CE95AB63BA533D6F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PleoRN (0.1.0)
+
+DEPENDENCIES:
+  - PleoRN (from `../`)
+
+EXTERNAL SOURCES:
+  PleoRN:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PleoRN: a5caaccbda3c34d54f232bdb1fc371ac61f16fa3
+
+PODFILE CHECKSUM: 1e2a2a10c0917e91827d87f00549337020972d5b
+
+COCOAPODS: 1.10.2

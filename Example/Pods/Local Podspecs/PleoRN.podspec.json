@@ -1,0 +1,22 @@
+{
+  "name": "PleoRN",
+  "version": "0.1.0",
+  "summary": "A short description of PleoRN.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Martin/PleoRN",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Martin": "martin.wiin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Martin/PleoRN.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Pod/Classes/**/*"
+}
